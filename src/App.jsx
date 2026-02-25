@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+import Dashboard from './components/muhammadbobur/Dashboard'
+>>>>>>> 2a08447b22975388448312dc925eeaae8de5b632
 import { Route, Routes } from 'react-router-dom'
 import Sidebar from './components/muhammadbobur/Sidebar'
 import Header from './components/muhammadbobur/Header'
@@ -24,6 +28,7 @@ const App = () => {
         <Route path='/board' element={<Board/>}/>
 
       </Routes>
+      <Students/>
     </div>
   )
 }
