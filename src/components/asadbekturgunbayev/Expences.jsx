@@ -239,7 +239,7 @@ const Expenses = () => {
                     <p className='div2-2-li-p4-1'>{item.p10}</p>
                     <p className='div2-2-li-p5-1'>{item.p11}</p>
                     <p className='div2-2-li-p6-1'>{item.p12}</p>
-                    <p className='div2-2-li-p7-1'>{item.p13}</p>
+                    <b className='div2-2-li-p7-1'>{item.p13}</b>
                   </li>
                   {item.data3.map((iteml, indexl) => {
                     return (
