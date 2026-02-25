@@ -1,5 +1,4 @@
-import React from 'react'
-import Dashboard from './components/muhammadbobur/Dashboard'
+
 import { Route, Routes } from 'react-router-dom'
 import Sidebar from './components/muhammadbobur/Sidebar'
 import Header from './components/muhammadbobur/Header'
@@ -8,6 +7,7 @@ import Teacher from './components/asadbekvaliev/Teacher'
 import Students from './components/oysha/Students'
 import Expences from './components/asadbekturgunbayev/Expences'
 import Board from './components/murodjon/Board'
+
 
 const App = () => {
   return (
