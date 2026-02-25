@@ -1,4 +1,4 @@
-import React from 'react'
+import Dashboard from './components/muhammadbobur/Dashboard'
 import { Route, Routes } from 'react-router-dom'
 import Sidebar from './components/muhammadbobur/Sidebar'
 import Header from './components/muhammadbobur/Header'
