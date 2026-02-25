@@ -47,7 +47,7 @@ const Sidebar = () => {
 
         <Link to="/teachers" className={isActive("/teachers") ? "menuItem active" : "menuItem"}>
           <img src={students} alt="" />
-          {open && <span>Teachers</span>}
+          {open && <span>Teacher</span>}
         </Link>
 
         <Link to="/students" className={isActive("/students") ? "menuItem active" : "menuItem"}>

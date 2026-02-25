@@ -1,6 +1,6 @@
 import React from 'react'
-import get1 from '../src/assets/get1.png';
-import get2 from '../src/assets/get2.png';
+// import get1 from '../src/assets/get1.png';
+// import get2 from '../src/assets/get2.png';
 import './Expenses.css';
 
 const data = [
@@ -175,14 +175,14 @@ const Expenses = () => {
                     <h2>{item.h2}</h2>
                     <button>{item.button1}</button>
                   </div>
-                  <img src={get1} alt="" />
+                  {/* <img src={get1} alt="" /> */}
                 </div>
                 <div className="div1-1-2">
                   <div className='div1-1-1-div'>
                     <h2>{item.h3}</h2>
                     <p>{item.p}</p>
                   </div>
-                  <img src={get2} alt="" />
+                  {/* <img src={get2} alt="" /> */}
                 </div>
               </div>
               <div className='div1-2'>

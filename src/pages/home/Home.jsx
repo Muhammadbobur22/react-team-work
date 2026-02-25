@@ -11,7 +11,7 @@ const Home = () => {
 
       <Inbox/>
       <Teacher/>
-      <Students/>
+      <Students/>z
       <Expences/>
       <Board/>
     </div>

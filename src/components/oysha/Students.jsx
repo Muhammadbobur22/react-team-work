@@ -123,14 +123,14 @@ const Students = () => {
     span: {
       color: "#058EB0"
     },
-    input: {
-      width: "250px",
-      height: "40px",
-      marginTop: "10px",
-      border: "1px solid #999",
-      backgroundColor: "#FFFFFF",
-      borderRadius: "10px"
-    },
+    // input: {
+    //   width: "250px",
+    //   height: "40px",
+    //   marginTop: "10px",
+    //   border: "1px solid #999",
+    //   backgroundColor: "#FFFFFF",
+    //   borderRadius: "10px"
+    // },
     header_scnd_text_p: {
       marginTop: "5px"
     },
@@ -251,7 +251,7 @@ const Students = () => {
       alignItems: "center",
       width: "757px",
       height: "58px",
-      display: "flex",
+      // display: "flex",
       backgroundColor: "#fff",
       justifyContent: "space-between",
       borderRadius: "10px  ",
