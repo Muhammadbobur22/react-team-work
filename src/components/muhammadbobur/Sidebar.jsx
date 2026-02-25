@@ -32,7 +32,7 @@ const Sidebar = () => {
 
         <Link to="/" className={isActive("/") ? "menuItem active" : "menuItem"}>
           <img src={dashboard} alt="" />
-          {open && <span>Dashboard</span>}
+          {open && <span>Dashboardd</span>}
         </Link>
 
         <Link to="/inbox" className={isActive("/inbox") ? "menuItem active" : "menuItem"}>
