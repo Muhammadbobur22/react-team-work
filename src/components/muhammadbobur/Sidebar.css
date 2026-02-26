@@ -5,6 +5,8 @@
   transition: 0.3s;
   display: flex;
   flex-direction: column;
+  margin-left: -199px;
+  margin-top: -40px;
 }
 
 .sidebar:not(.open) {

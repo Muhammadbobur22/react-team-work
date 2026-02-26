@@ -19,7 +19,8 @@ const Sidebar = () => {
   const isActive = (path) => location.pathname === path
 
   return (
-    <div className={open ? "sidebar open" : "sidebar"}>
+   <div className="container">
+     <div className= { open ? "sidebar open" : "sidebar"}>
 
       <div className="top">
         {open && <Link to="/  "><img src={logo} alt="logo" className="logo" /></Link>}
@@ -72,6 +73,7 @@ const Sidebar = () => {
 
       </nav>
     </div>
+   </div>
   )
 }
 
