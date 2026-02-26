@@ -35,20 +35,21 @@
 }
 
 .info_dep {
-  /* display: flex;
-  gap: 16px;
-  align-items: flex-start; */
+  
 }
 
 .department {
   border: 1px solid gray;
   padding: 16px;
   border-radius: 8px;
+  width: 280px;
 }
 
 .attendance {
   padding: 16px;
-  
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 296px;
 }
 
 .a_text {
@@ -67,4 +68,45 @@
   border: none;
   border-radius: 8px;
   background-color: rgba(206, 234, 241, 1);
+  outline: none;
+}
+
+.workload {
+  padding: 16px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  width: 559px;
+}
+
+.workload_text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.workload_text h3 {
+  padding-right: 175px;
+  font-size: 16px;
+}
+
+.w_select_1 {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(206, 234, 241, 1);
+  outline: none;
+  margin-right: 10px;
+}
+
+
+.w_select_2 {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(206, 234, 241, 1);
+  outline: none;
+}
+
+.workload_img img{
+  width: 500px;
 }
