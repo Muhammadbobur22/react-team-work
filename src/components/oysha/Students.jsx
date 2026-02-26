@@ -22,66 +22,6 @@ const Students = () => {
       TextDecoder: "none"
 
     },
-    sidebar: {
-      width: "260px",
-      height: "100vh",
-      backgroundColor: "#e1e1e2",
-      padding: "20px",
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "space-between",
-      boxSizing: "border-box",
-      fontFamily: "sans-serif"
-    },
-    logo: {
-      fontSize: "22px",
-      fontWeight: "600",
-      marginBottom: "30px"
-    },
-    menu: {
-      display: "flex",
-      flexDirection: "column",
-      gap: "18px"
-    },
-    item: {
-      display: "flex",
-      alignItems: "center",
-      gap: "10px",
-      fontSize: "15px",
-      color: "#555",
-      cursor: "pointer"
-    },
-    activeItem: {
-      display: "flex",
-      alignItems: "center",
-      gap: "10px",
-      fontSize: "15px",
-      background: "linear-gradient(90deg, #fbc2eb, #a6c1ee)",
-      padding: "10px 12px",
-      borderRadius: "10px",
-      color: "#000",
-      cursor: "pointer"
-    },
-    bottomCard: {
-      backgroundColor: "#cfe8ef",
-      borderRadius: "16px",
-      padding: "20px",
-      textAlign: "center",
-      marginTop: "20px"
-    },
-    button: {
-      marginTop: "15px",
-      padding: "8px 14px",
-      background: "linear-gradient(90deg, #fbc2eb, #a6c1ee)",
-      border: "none",
-      borderRadius: "8px",
-      cursor: "pointer"
-    },
-    logout: {
-      marginTop: "20px",
-      fontSize: "14px",
-      cursor: "pointer"
-    },
     banner: {
       width: "1215px",
       height: "700px",
@@ -275,31 +215,6 @@ const Students = () => {
 
   return (
     <div className="container" style={styles.container}>
-      <div style={styles.sidebar}>
-        <div>
-          <div style={styles.logo}>Schola</div>
-
-          <div style={styles.menu}>
-            <div style={styles.item}>Dashboard</div>
-            <div style={styles.item}>Inbox</div>
-            <div style={styles.item}>Calendar</div>
-            <div style={styles.item}>Teachers</div>
-            <div style={styles.activeItem} onClick={() => navigate('/students-details')}>Students</div>
-            <div style={styles.item}>Attendance</div>
-            <div style={styles.item}>Finance</div>
-            <div style={styles.item}>Notice Board</div>
-          </div>
-        </div>
-
-        <div>
-          <div style={styles.bottomCard}>
-            <div>New Tools Available</div>
-            <button style={styles.button}>See Updates</button>
-          </div>
-
-          <div style={styles.logout}>Logout</div>
-        </div>
-      </div>
       <div style={styles.banner}>
         <header style={styles.header}>
           <div style={styles.header_first}>
