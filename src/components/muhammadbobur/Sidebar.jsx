@@ -35,19 +35,18 @@ const Sidebar = () => {
           <img src={dashboard} alt="" />
           {open && <span>Dashboardd</span>}
         </Link>
-
-        <Link to="/inbox" className={isActive("/inbox") ? "menuItem active" : "menuItem"}>
+    <Link to="/inbox" className={isActive("/inbox") ? "menuItem active" : "menuItem"}>
           <img src={inbox} alt="" />
           {open && <span>Inboxx</span>}
         </Link>
 
         <Link to="/calendar" className={isActive("/calendar") ? "menuItem active" : "menuItem"}>
           <img src={calendar} alt="" />
-          {open && <span>Calendar</span>}
+    {open && <span>Calendar</span>}
         </Link>
 
         <Link to="/teachers" className={isActive("/teachers") ? "menuItem active" : "menuItem"}>
-          <img src={students} alt="" />
+    <img src={students} alt="" />
           {open && <span>Teacherr</span>}
         </Link>
 

@@ -13,10 +13,8 @@ const Header = () => {
         <IoIosArrowBack className="back-icon" />
 
         <div>
-          <h2 className="title">Student Details</h2>
-          <p className="breadcrumb">
-            Dashboard <span>›</span> Students <span>›</span> Student Details
-          </p>
+          <h2 className="title">Dashboard</h2>
+         
         </div>
       </div>
 

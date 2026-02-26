@@ -164,7 +164,10 @@ const data = [
 
 const Expenses = () => {
   return (
-    <div className="expenses">
+    <div className="expenses" style={{
+      marginTop:"-2040px",
+      marginLeft:"280px"
+    }}>
       {data.map((item, index) => {
         return (
           <div className="container">

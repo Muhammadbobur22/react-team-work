@@ -23,13 +23,17 @@ const Students = () => {
 
     },
     banner: {
+    
       width: "1215px",
       height: "700px",
-      backgroundColor: "#dddddd43",
+
+        marginTop:"-2070px",
+        marginLeft:"50px"
     },
     header: {
-      display: "flex",
-      justifyContent: "space-between"
+      display: "none",
+      justifyContent: "space-between",
+    
     },
     header_second: {
       display: "flex",

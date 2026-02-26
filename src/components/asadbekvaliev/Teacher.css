@@ -2,6 +2,12 @@
   display: flex;
   gap: 16px;
   align-items: center;
+  grid-column: 1 / 4;
+  
+}
+.info_dep{
+  margin-top: -2000px;
+  margin-left: 120px;
 }
 
 .info_wrapper {
@@ -15,12 +21,12 @@
 .info_wrapper h3 {
   font-size: 12px;
   line-height: 150%;
-  font-weight: 500px;
+  font-weight: 500;
   color: rgba(102, 112, 109, 1);
 }
 
 .info_wrapper p{
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 20px;
 
 }
@@ -35,20 +41,30 @@
 }
 
 .info_dep {
-  /* display: flex;
-  gap: 16px;
-  align-items: flex-start; */
+  display: grid;
+  grid-template-columns: 300px 1fr 280px;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  
 }
 
 .department {
   border: 1px solid gray;
   padding: 16px;
   border-radius: 8px;
+  grid-column: 3 / 4;
+  margin-top: -110px;
 }
+
+/* .department h3 {
+  padding-bottom: 16px;
+} */
 
 .attendance {
   padding: 16px;
-  
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-top: -270px;
 }
 
 .a_text {
@@ -67,4 +83,46 @@
   border: none;
   border-radius: 8px;
   background-color: rgba(206, 234, 241, 1);
+  outline: none;
+}
+
+.workload {
+  padding: 16px;
+  border: 1px solid grey;
+  border-radius: 8px;
+  grid-column: 2 / 3;
+  margin-top: -270px;
+}
+
+.workload_text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.workload_text h3 {
+  padding-right: 175px;
+  font-size: 16px;
+}
+
+.w_select_1 {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(206, 234, 241, 1);
+  outline: none;
+  margin-right: 10px;
+}
+
+
+.w_select_2 {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(206, 234, 241, 1);
+  outline: none;
+}
+
+.workload_img img{
+  width: 500px;
 }

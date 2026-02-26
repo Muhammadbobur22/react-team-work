@@ -6,6 +6,8 @@ import Teacher from './components/asadbekvaliev/Teacher'
 import Students from './components/oysha/Students'
 import Expences from './components/asadbekturgunbayev/Expences'
 import Board from './components/murodjon/Board'
+import Expenses from './components/asadbekturgunbayev/Expences'
+import Dashboard from './components/muhammadbobur/Dashboard'
 
 
 const App = () => {
@@ -13,16 +15,19 @@ const App = () => {
     <div>
       <Sidebar/>
       <Header/>
+   
       <Routes>
-     
+        {/* <Route path='/' element={<Header/>}/> */}
+        <Route path='/' element={<Dashboard/>}/>
         <Route path='/inbox' element={<Inbox/>}/>
-        <Route path='/teacher' element={<Teacher/>}/>
+        <Route path='/teachers' element={<Teacher/>}/>
         <Route path='/students' element={<Students/>}/>
-        <Route path='/expences' element={<Expences/>}/>
+        <Route path='/finance' element={<Expences/>}/>
         <Route path='/board' element={<Board/>}/>
 
       </Routes>
-      <Students/>
+     
+ 
     </div>
   )
 }
