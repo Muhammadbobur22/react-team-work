@@ -1,6 +1,6 @@
 import React from 'react'
-import get1 from '../src/assets/get1.png';
-import get2 from '../src/assets/get2.png';
+// import get1 from '../../src/assets/get1.png';
+// import get2 from '../../src/assets/get2.png';
 import './Expenses.css';
 
 const data = [
